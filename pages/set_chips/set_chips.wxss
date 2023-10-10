@@ -1,0 +1,80 @@
+/* pages/set_chips/set_chips.wxss */
+.container {
+  background-image: url('https://s1.imagehub.cc/images/2023/09/18/eda6f94f7e355a790cf2600d52a1991.png');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.view1{
+  position: absolute;
+  top: 40%;
+  height: 50%;
+  width: 50%;
+  background-color: aqua;
+}
+.playername{
+  position: absolute;
+  top: 0;
+  height: 10%;
+  width: 50%;
+  background-color: bisque;
+}
+.playerscore{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 10%;
+  width: 50%;
+  background-color: bisque;
+}
+/* 轮播容器的样式 */
+.swiper-container {
+  position: relative;
+  top: 10%;
+  background-color: blue;
+  height: 50%; /* 设置容器的高度 */
+}
+
+/* 轮播项的样式 */
+.swiper-item {
+  background-color: crimson;
+  height: 0%; /* 设置轮播项的高度 */
+}
+.rank-container {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.rank-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.rank-header-item {
+  font-weight: bold;
+}
+
+.rank-list {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.rank-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.rank-item-name {
+  flex: 1;
+}
+
+.rank-item-score {
+  margin-left: 10px;
+}

@@ -1,0 +1,56 @@
+/* pages/rules/rules.wxss */
+.container1 {
+  background-image: url('https://s1.imagehub.cc/images/2023/09/18/5baa072576b6555258210e79cf008c8.jpeg');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container2 {
+  background-image: url('https://s1.imagehub.cc/images/2023/09/19/8047f9280fb044de4bafa589578aee2.jpeg');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container3 {
+  background-image: url('https://s1.imagehub.cc/images/2023/09/19/464901e76a29e5226c2cb1117cc6036.jpeg');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container4 {
+  background-image: url('https://1111-1321099770.cos.ap-nanjing.myqcloud.com/tutieshi_640x1227_7s%20%281%29.gif?q-sign-algorithm=sha1&q-ak=AKIDTGblnUoktPRhyE4YMowkzaF280sAvJfen1EZ1biD6wav0n5zhvvoZix7a0dZQDA6&q-sign-time=1696855246;1696858846&q-key-time=1696855246;1696858846&q-header-list=host&q-url-param-list=ci-process&q-signature=8ac729ef5dcd37c4f5ac755ffadca23d7f265c4b&x-cos-security-token=bRLOmQsi7zM10aizp5WIlhz7AVpFXpca770287ff8434eb7afc55d34218ce7ee163tgh-0e2gjTJYZWWPGaqYLSvimOvO_IkWFLNuIoZRG1xRwI_0BN6rZPew4_bvxFe_kAqhGs4vhkEuQE0_ke0PuWJLxjJcJX_1a0mATZJ2fTgwCeAvrxIg7iqit1Kewr3yi9ozu7TfFhK3SpUWXzOUPhr-AK_pAPL4PL9xGSSDVW7gipT-reo-imWJT4aRqh&ci-process=originImage');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container5 {
+  background-image: url('https://1111-1321099770.cos.ap-nanjing.myqcloud.com/tutieshi_640x1227_5s.gif?q-sign-algorithm=sha1&q-ak=AKIDBvgM8ued51B-D0o2YGaLzvFlNw2TS-I0V6yTirejcegr8AyfrvQf1ciRZ-D3BoyD&q-sign-time=1696855214;1696858814&q-key-time=1696855214;1696858814&q-header-list=host&q-url-param-list=ci-process&q-signature=b05095f7d0e2897578d97c4646184e1803723be9&x-cos-security-token=bRLOmQsi7zM10aizp5WIlhz7AVpFXpca8f0fecf574d3f1ea49e5bc25636082c063tgh-0e2gjTJYZWWPGaqcqKrW1ZkPHyiGylN7gGoeb9xPKsEi944HU3FT6bs0fBgSmD98ChWemoRvJiy3eG0E_RLqe-9f1NDXu4xDkgtDYcQMps83wdLWJV-Jstx3lbpy521sDXd0-T-FuAYZDCfNYtWEYg92FvWNUlDkSGv2B2rW5M_Ya9Vh60DJX1B6Hf&ci-process=originImage');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

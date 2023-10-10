@@ -1,0 +1,28 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/cp_vs_p/cp_vs_p",
+    "pages/3p/3p",
+    "pages/4p/4p",
+    "pages/choose_people/choose_people",
+    "pages/aiplay/aiplay",
+    "pages/charts/charts",
+    "pages/logs/logs",
+    "pages/local_cp/local_cp",
+    "pages/rules/rules",
+    "pages/pvp/pvp",
+    "pages/game_number/game_number",
+    "pages/set_chips/set_chips",
+    "pages/winner/winner",
+    "pages/rooms/rooms"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

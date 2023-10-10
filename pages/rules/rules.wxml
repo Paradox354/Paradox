@@ -1,0 +1,9 @@
+<!--pages/rules/rules.wxml-->
+<swiper class="carousel" style="height: 100vh; width: 100%;" indicator-dots="{{true}}" circular="{{true}}">
+  <swiper-item><view class="container1"></view></swiper-item>
+  <swiper-item><view class="container2"></view></swiper-item>
+  <swiper-item><view class="container3"></view></swiper-item>
+  <swiper-item><view class="container4"></view></swiper-item>
+  <swiper-item><view class="container5"></view></swiper-item>
+</swiper>
+

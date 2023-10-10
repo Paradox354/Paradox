@@ -1,0 +1,8 @@
+<!--pages/charts/charts.wxml-->
+<view class="container">
+  <view class="my_view">
+  <text class="artfont">请输入初始筹码</text>
+</view>
+  <input type="number" placeholder="请输入筹码" value="{{value}}" bindinput="onInputChange" class="input-box" />
+  <button class="{{buttonClass}}" bindtap="redirectToPage" bindtouchstart="changeToGolden" bindtouchend="restoreStyle">开始游戏</button>
+</view>

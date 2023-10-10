@@ -1,0 +1,54 @@
+<!--pages/cp_vs_p/cp_vs_p.wxml-->
+<view>
+ <view class="view1">
+ <view class="view11" ><view wx:if="{{count<10}}">{{countdown}}</view></view>
+ <view class="view111">
+ <view class="myview1">当前玩家</view>
+ <view class="myview2">剩余局数</view>
+ <view class="myview3">当前轮次</view>
+ <view class="myview4">{{playcount}}</view>
+ <view class="myview5">{{count%2+1}}</view>
+ <view class="myview6">{{lunci}}</view>
+ </view>
+ <view class="view1111">筹码</view>
+ <view class="view12">p1</view>
+ <view class="view122">{{play[0].suoding}}</view>
+ <view class="view1222">{{play[0].point}}/{{play[0].chip}}</view>
+ <view class="view13">p2</view>
+ <view class="view133" >{{play[1].suoding}}</view>
+ <view class="view1333">{{play[1].point}}/{{play[1].chip}}</view>
+ <view class="view14"></view>
+ <view class="view144"></view>
+ <view class="view1444"></view>
+ </view>
+ <view class="view2"></view>
+ <view class="beilv">当前总倍率是：{{beilv}}</view>
+ 
+ <view class="view21" style="border: 3px dashed {{checkbord[0].color}}; background-image: url({{imagelist[checkbord[0].data]}});" wx:if="{{checkbord[0].vis}}"><block><button class="button"bindtap="lock1" style="color:{{checkbord[0].color}}"></button></block></view>
+
+ <view class="view22" style="border: 3px dashed {{checkbord[1].color}};background-image: url({{imagelist[checkbord[1].data]}});"wx:if="{{checkbord[1].vis}}"><button class="button" bind:tap="lock2" style="color:{{checkbord[1].color}}"></button></view>
+
+ <view class="view23" style="border: 3px dashed {{checkbord[2].color}};background-image: url({{imagelist[checkbord[2].data]}});"wx:if="{{checkbord[2].vis}}"><button class="button" bind:tap="lock3" style="color:{{checkbord[2].color}}"></button></view>
+
+ <view class="view24" style="border: 3px dashed {{checkbord[3].color}};background-image: url({{imagelist[checkbord[3].data]}});"wx:if="{{checkbord[3].vis}}" ><button class="button"bind:tap="lock4" style="color:{{checkbord[3].color}}"></button></view>
+
+ <view class="view25" style="border: 3px dashed {{checkbord[4].color}};background-image: url({{imagelist[checkbord[4].data]}});" wx:if="{{checkbord[4].vis}}"><button class="button"bind:tap="lock5" style="color:{{checkbord[4].color}}"></button></view>
+
+ <view class="view3">
+ <view class="view31" wx:if="{{isable==false}}"><button class="button" bind:tap="bindtap" disabled="{{count>10||play[count%2].isrobot}}">摇骰子</button></view>
+ <view class="view31" wx:if="{{isable==true}}"><button class="button" bind:tap="queding" disabled="{{play[count%2].isrobot}}">确定</button></view>
+ <view class="view31" wx:if="{{count>=10}}"><button class="button" bind:tap="nextgame">next</button></view>
+ <view class="view32"> 
+
+ <picker mode="selector" range="{{['0', '1', '2', '3']}}" bindchange="bindPickerChange">
+  <view class="picker" wx:if="{{count%2==0}}">
+      <button class="button" disabled="{{xiazhu==false||play[count%2].isrobot}}"> <text>当前选择:\n {{play[0].current}}</text></button>
+  </view>
+  
+  <view class="picker" wx:if="{{count%2==1}}">
+      <button class="button" disabled="{{xiazhu==false||play[count%2].isrobot}}"> <text>当前选择:\n {{play[1].current}}</text></button>
+   </view>
+  </picker>
+</view>
+ </view>
+</view>

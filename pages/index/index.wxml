@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <button class="{{buttonClass}}" bindtap="bindViewTap" bindtouchstart="buttonTouchStart" bindtouchend="buttonTouchEnd"><text class="user-motto">{{motto}}</text></button>
+  </view>
+</view>

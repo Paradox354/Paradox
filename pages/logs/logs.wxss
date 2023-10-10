@@ -1,0 +1,74 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.my-botton1.active {
+  background-color: gold;
+}
+.my-botton2.active {
+  background-color: gold;
+}
+.my-botton3.active {
+  background-color: gold;
+}
+.my-botton4.active {
+  background-color: gold;
+}
+.my-botton5.active {
+  background-color: gold;
+}
+.container {
+  background-image: url('https://s1.imagehub.cc/images/2023/09/18/eda6f94f7e355a790cf2600d52a1991.png');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.my-botton1 {
+  background-color:rgba(128, 128, 128, 0.6);
+  border-radius: 10%;
+  color: turquoise;
+  border: 1px solid transparent;
+  padding: 10px; 
+  top: 150%;
+  }
+  .my-botton2 {
+    background-color:rgba(128, 128, 128, 0.6);
+    border-radius: 10%;
+    color: turquoise;
+    border: 1px solid transparent;
+    padding: 10px; 
+    top: 160%;
+    }
+.my-botton3 {
+      background-color:rgba(128, 128, 128, 0.6);
+      border-radius: 10%;
+      color: turquoise;
+      border: 1px solid transparent;
+      padding: 10px; 
+      top: 170%;
+}
+.my-botton4 {
+  background-color:rgba(128, 128, 128, 0.6);
+  border-radius: 10%;
+  color: turquoise;
+  border: 1px solid transparent;
+  padding: 10px; 
+  top: 180%;
+  }
+  .my-botton5 {
+    background-color:rgba(128, 128, 128, 0.6);
+    border-radius: 10%;
+    color: turquoise;
+    border: 1px solid transparent;
+    padding: 10px; 
+    top: 190%;
+    }

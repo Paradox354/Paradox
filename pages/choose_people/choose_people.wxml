@@ -1,0 +1,24 @@
+<!--pages/choose_people/choose_people.wxml-->
+<view class="container">
+<view>
+<view class="my_view">
+  <text class="artfont">游戏人数和局数</text>
+</view>
+<button class="my-botton1 {{ selectedButton === 1 ? 'active' : '' }}" bindtap="handleButtonClick1"bindtouchstart="handleButtonTouchStart" bindtouchend="handleButtonTouchEnd" data-index="1" data-url="/pages/charts/charts">
+  <text>激情单挑</text>
+</button>
+
+<button class="my-botton2 {{ selectedButton === 2 ? 'active' : '' }}" bindtap="handleButtonClick2"bindtouchstart="handleButtonTouchStart" bindtouchend="handleButtonTouchEnd" data-index="2" data-url="/pages/3p/3p">
+  <text>热血3P</text>
+</button>
+
+<button class="my-botton3 {{ selectedButton === 3 ? 'active' : '' }}" bindtap="handleButtonClick3"bindtouchstart="handleButtonTouchStart" bindtouchend="handleButtonTouchEnd" data-index="3" data-url="/pages/charts/charts">
+  <text>四人混战</text>
+</button>
+</view>
+<view>
+  <button bindtap="decreaseCount" class="my-botton4 {{isActive2 ? 'active' : ''}}"bindtouchstart="bindTouchStart2" bindtouchend="bindTouchEnd2">-</button>
+  <view class="box">{{count}}局</view>
+  <button bindtap="increaseCount" class="my-botton5 {{isActive3 ? 'active' : ''}}" bindtouchstart="bindTouchStart3" bindtouchend="bindTouchEnd3">+</button>
+</view>
+</view>

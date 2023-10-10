@@ -1,0 +1,8 @@
+<!--pages/rooms/rooms.wxml-->
+<view class="container">
+  <view class="my_view">
+  <text class="artfont">请输入房间号</text>
+</view>
+  <input type="number" placeholder="请输入房间号" value="{{value}}" bindinput="onInputChange" class="input-box" />
+  <button class="{{buttonClass}}" bindtap="redirectToPage" bindtouchstart="changeToGolden" bindtouchend="restoreStyle">开始匹配</button>
+</view>

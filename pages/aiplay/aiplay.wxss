@@ -1,0 +1,463 @@
+/* pages/cp_vs_p/cp_vs_p.wxss */
+.container {
+  background-image: url('https://s1.imagehub.cc/images/2023/09/18/eda6f94f7e355a790cf2600d52a1991.png');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.view1{
+  position:absolute;
+  background-color: blue;
+  width: 100%;
+  height: 33%;
+  top:0%;
+}
+.view2{
+  display: inline;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('https://s1.imagehub.cc/images/2023/09/25/6705e0be603ab753b1c2d7b24a4c924.jpeg');
+  position: absolute;
+  background-color: brown;
+  width: 100%;
+  height: 43%;
+  top:33%;
+}
+button[disabled] {
+  color: white !important;
+  background-image: url('https://s1.imagehub.cc/images/2023/09/25/25dcb67c2e05430c881d175c3857af51_3.png') !important;
+}
+.view3 {
+  background-image: url('https://s1.imagehub.cc/images/2023/09/25/780.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-color: chartreuse;
+  width: 100%;
+  height: 24%;
+  top:76%;
+}
+.view12{
+  background-image: url('https://s1.imagehub.cc/images/2023/09/25/c52812e352314683afd3353fd1ab5ff7_0.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  background-color: green;
+  top: 25%;
+  width: 20%;
+  height: 25%;
+}
+.view13{
+  background-image: url('https://s1.imagehub.cc/images/2023/09/25/c52812e352314683afd3353fd1ab5ff7_0.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  background-color: cornsilk;
+  top: 50%;
+  width: 20%;
+  height: 25%;
+}
+.view11{
+  position: absolute;
+  background-image: url('https://s1.imagehub.cc/images/2023/09/25/c52812e352314683afd3353fd1ab5ff7_0.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-blend-mode: multiply;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 2px 0px #FFF700;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  top: 0%;
+  width: 20%;
+  height: 25%;
+}
+.myview1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  color: aqua;
+  text-align: center;
+  width: 30%;
+  height: 50%;
+}
+.myview2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  text-align: center;
+  color: aqua;
+  left: 34%;
+  width: 30%;
+  height: 50%;
+}
+.myview3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  text-align: center;
+  color: aqua;
+  left: 66%;
+  width: 30%;
+  height: 50%;
+}
+.myview4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  text-align: center;
+  color: aqua;
+  top: 50%;
+  left: 34%;
+  width: 30%;
+  height: 50%;
+}
+.myview5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  text-align: center;
+  color: aqua;
+  top: 50%;
+  left: 0%;
+  width: 30%;
+  height: 50%;
+}
+.myview6{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  color: aqua;
+  top: 50%;
+  left: 66%;
+  width: 30%;
+  height: 50%;
+}
+.view14{
+  background-image: url('https://s1.imagehub.cc/images/2023/09/25/c52812e352314683afd3353fd1ab5ff7_0.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-color: green;
+  top: 75%;
+  width: 20%;
+  height: 25%;
+}
+.view111{
+  display: inline;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('https://s1.imagehub.cc/images/2023/09/25/6705e0be603ab753b1c2d7b24a4c924.jpeg');
+  position: absolute;
+  background-color: green;
+  top: 0%;
+  left: 20%;
+  width: 60%;
+  height: 25%;
+}
+.view122{
+  display: inline;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('https://s1.imagehub.cc/images/2023/09/25/6705e0be603ab753b1c2d7b24a4c924.jpeg');
+  position: absolute;
+  background-color: cornsilk;
+  top: 25%;
+  left: 20%;
+  width: 60%;
+  height: 25%;
+}
+.view133{
+  display: inline;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('https://s1.imagehub.cc/images/2023/09/25/6705e0be603ab753b1c2d7b24a4c924.jpeg');
+  position: absolute;
+  background-color: green;
+  top: 50%;
+  left: 20%;
+  width: 60%;
+  height: 25%;
+}
+.view144{
+  border: none;
+  display: inline;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('https://s1.imagehub.cc/images/2023/09/25/6705e0be603ab753b1c2d7b24a4c924.jpeg');
+  position: absolute;
+  background-color: cornsilk;
+  top: 75%;
+  left: 20%;
+  width: 60%;
+  height: 25%;
+}
+.view1111{
+  color: aqua;
+  background-image: url('https://s1.imagehub.cc/images/2023/09/25/780.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  background-color: cornsilk;
+  top: 0%;
+  left: 80%;
+  width: 20%;
+  height: 25%;
+}
+.view1222{
+  background-image: url('https://s1.imagehub.cc/images/2023/09/25/780.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  background-color: green;
+  top: 25%;
+  left: 80%;
+  width: 20%;
+  height: 25%;
+}
+.view1333{
+  background-image: url('https://s1.imagehub.cc/images/2023/09/25/780.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  background-color: cornsilk;
+  top: 50%;
+  left: 80%;
+  width: 20%;
+  height: 25%;
+}
+.view1444{
+  background-image: url('https://s1.imagehub.cc/images/2023/09/25/780.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-color: green;
+  top: 75%;
+  left: 80%;
+  width: 20%;
+  height: 25%;
+}
+.background-image {
+  width: 100%; /* 图片宽度占满父容器 */
+  height: auto; /* 图片高度自适应 */
+}
+.background-image cover-image {
+  width: 100%;
+  height: 100%;
+}
+.view21{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: absolute;
+  background-color: white;
+  top: 40%;
+  left: 10%;
+  width: 20%;
+  height: 10%;
+}
+.view22{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: absolute;
+  background-color: white;
+  top: 40%;
+  left: 40%;
+  width: 20%;
+  height: 10%;
+}
+.view23{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: absolute;
+  background-color: white;
+  top: 40%;
+  left: 70%;
+  width: 20%;
+  height: 10%;
+}
+.view24{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: absolute;
+  background-color: white;
+  top: 55%;
+  left: 25%;
+  width: 20%;
+  height: 10%;
+}
+.view25{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: absolute;
+  background-color: white;
+  top: 55%;
+  left: 55%;
+  width: 20%;
+  height: 10%;
+}
+.view31{
+  background-image: url('https://s1.imagehub.cc/images/2023/09/25/25dcb67c2e05430c881d175c3857af51_3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: absolute;
+  background-color: white;
+  top: 25%;
+  left: 15%;
+  width: 25%;
+  height: 45%;
+}
+.button2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-color: aqua;
+  color: black;
+  left: -65%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.view33{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  background-color: aqua;
+  top: 0%;
+  left: 40%;
+  width: 20%;
+  height: 25%;
+}
+.beilv{
+  position: absolute;
+  top: 33%;
+  background-color: aqua;
+}
+.view32{
+  background-image: url('https://s1.imagehub.cc/images/2023/09/25/25dcb67c2e05430c881d175c3857af51_3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: absolute;
+  background-color: white;
+  top: 25%;
+  left: 60%;
+  width: 25%;
+  height: 45%;
+}
+.button1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  color: aqua;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: rgb(20, 169, 214);
+background-color: transparent;
+  position: absolute;
+  top: 0%;
+  left: -40%;
+  width: 100%;
+  height: 100%;
+}

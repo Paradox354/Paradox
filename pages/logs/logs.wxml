@@ -1,0 +1,12 @@
+<!--logs.wxml-->
+<view class="container log-list">
+<view>
+  <button class="my-botton1 {{isActive1 ? 'active' : ''}}" bindtap="bindViewTap1"bindtouchstart="bindTouchStart1" bindtouchend="bindTouchEnd1">
+  <text>本地对战</text>
+</button>
+  <button class="my-botton2 {{isActive2 ? 'active' : ''}}" bindtap="bindViewTap2"bindtouchstart="bindTouchStart2" bindtouchend="bindTouchEnd2"><text>人机对战</text></button>
+  <button class="my-botton3 {{isActive3 ? 'active' : ''}}" bindtap="bindViewTap3" bindtouchstart="bindTouchStart3" bindtouchend="bindTouchEnd3"><text>联机对战</text></button>
+  <button class="my-botton4 {{isActive4 ? 'active' : ''}}" bindtap="bindViewTap4"bindtouchstart="bindTouchStart4" bindtouchend="bindTouchEnd4"><text>游戏规则</text></button>
+  <button class="my-botton5 {{isActive5 ? 'active' : ''}}" bindtap="bindViewTap5"bindtouchstart="bindTouchStart5" bindtouchend="bindTouchEnd5"><text>排行榜</text></button>
+</view>
+</view>

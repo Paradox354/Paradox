@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  
+  <view class="usermotto">
+    <view class="view2">胜利者是：{{winner}}！</view>
+    <button class="{{buttonClass}}" bindtap="bindViewTap" bindtouchstart="buttonTouchStart" bindtouchend="buttonTouchEnd">点击返回选择页面</button>
+  </view>
+</view>

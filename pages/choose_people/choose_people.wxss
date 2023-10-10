@@ -1,0 +1,88 @@
+/* pages/choose_people/choose_people.wxss */
+.container {
+  background-image: url('https://s1.imagehub.cc/images/2023/09/18/eda6f94f7e355a790cf2600d52a1991.png');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.my_view {
+  width: 200%;
+  position: relative;
+  left: -50%;
+  top: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.artfont {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color:red;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: lightgreen;
+}
+.my-botton1 {
+  background-color:rgba(128, 128, 128, 0.6);
+  border-radius: 10%;
+  color: turquoise;
+  border: 1px solid transparent;
+  padding: 10px; 
+  top: 110%;
+  }
+  .my-botton2 {
+    background-color:rgba(128, 128, 128, 0.6);
+    border-radius: 10%;
+    color: turquoise;
+    border: 1px solid transparent;
+    padding: 10px; 
+    top: 120%;
+    }
+.my-botton3 {
+      background-color:rgba(128, 128, 128, 0.6);
+      border-radius: 10%;
+      color: turquoise;
+      border: 1px solid transparent;
+      padding: 10px; 
+      top: 130%;
+}
+.my-botton4 {
+  background-color:rgba(128, 128, 128, 0.6);
+  border-radius: 10%;
+  color: turquoise;
+  border: 1px solid transparent;
+  padding: 10px; 
+  top: 20%;
+  left: 0%;
+}
+.my-botton5 {
+  background-color:rgba(128, 128, 128, 0.6);
+  border-radius: 10%;
+  color: turquoise;
+  border: 1px solid transparent;
+  padding: 10px; 
+  top: 30%;
+  left: 0%;
+}
+.box {
+  width: 100%;
+  height: 30%;
+  font-size: 24px;
+  position:relative;
+  top: 25%;
+  text-align: center;
+  background-color:rgba(128, 128, 128, 0.6);
+  color: turquoise;
+}
+.active {
+  background-color: gold;
+}
+.my-botton4.active{
+  background-color: gold;
+}
+.my-botton5.active{
+  background-color: gold;
+}

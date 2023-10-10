@@ -1,0 +1,100 @@
+<!--pages/set_chips/set_chips.wxml-->
+<view class="container">
+<view class="view1">
+  <view class="rank-container">
+  <view class="rank-header">
+    <text class="rank-header-item">玩家姓名</text>
+    <text class="rank-header-item">玩家分数</text>
+  </view>
+  <view class="rank-list">
+    <!-- 这里放置排行榜项 -->
+    <view class="rank-item">
+      <text class="rank-item-name">P1</text>
+      <text class="rank-item-score">138</text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name">P1</text>
+      <text class="rank-item-score">126</text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name">P2</text>
+      <text class="rank-item-score">110</text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name">P3</text>
+      <text class="rank-item-score">101</text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name">P1</text>
+      <text class="rank-item-score">90</text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name"></text>
+      <text class="rank-item-score"></text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name"></text>
+      <text class="rank-item-score"></text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name"></text>
+      <text class="rank-item-score"></text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name"></text>
+      <text class="rank-item-score"></text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name"></text>
+      <text class="rank-item-score"></text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name"></text>
+      <text class="rank-item-score"></text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name"></text>
+      <text class="rank-item-score"></text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name"></text>
+      <text class="rank-item-score"></text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name"></text>
+      <text class="rank-item-score"></text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name"></text>
+      <text class="rank-item-score"></text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name"></text>
+      <text class="rank-item-score"></text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name"></text>
+      <text class="rank-item-score"></text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name"></text>
+      <text class="rank-item-score"></text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name"></text>
+      <text class="rank-item-score"></text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name"></text>
+      <text class="rank-item-score"></text>
+    </view>
+    <view class="rank-item">
+      <text class="rank-item-name"></text>
+      <text class="rank-item-score"></text>
+    </view>
+    <!-- 添加更多排行榜项 -->
+  </view>
+</view>
+</view>
+
+</view>
